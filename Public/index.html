@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Desenho Assinado</title>
@@ -21,7 +22,22 @@
 
       <button type="submit">Desenhar</button>
     </form>
+<!-- 1. Configuração invisível do Google Identity Services -->
+<div id="g_id_onload"
+     data-client_id="632204451697-qq0pc2mljaa56e7u0pbdm97c316tis0e.apps.googleusercontent.com"
+     data-callback="tratarLoginGoogle"
+     data-auto_prompt="false">
+</div>
 
+<!-- 2. O botão visual "Sign in with Google" -->
+<div class="g_id_signin"
+     data-type="standard"
+     data-size="large"
+     data-theme="outline"
+     data-text="sign_in_with"
+     data-shape="rectangular"
+     data-logo_alignment="left">
+</div>
     <p id="mensagem" role="alert"></p>
 
     <figure id="desenho" aria-live="polite"></figure>
