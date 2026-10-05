@@ -24,4 +24,4 @@ Framework preset: `None`. Build command: vazio. Build output directory: `public`
 
 Nome: Vitor Gabriel do Nascimento 
 RA: 2026109543
-URL: https://
+URL: https://projetovitor-4jv.pages.dev/
