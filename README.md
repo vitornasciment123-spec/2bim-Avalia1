@@ -22,6 +22,6 @@ Framework preset: `None`. Build command: vazio. Build output directory: `public`
 
 ## Identificação (preencha após o fork)
 
-Nome: 
-RA: 
+Nome: Vitor Gabriel do Nascimento 
+RA: 2026109543
 URL: https://
